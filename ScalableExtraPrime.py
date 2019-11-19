@@ -81,7 +81,7 @@ class ScalableExtraPrime(Extension):
         self._enable_all_travels_key = 'scalable_prime_enable_all_travels'
         self._enable_all_travels_dict = {
             'label': 'Enable For All Travels',
-            'description': 'Disabling this sets the slicer to only add extra filament after a retraction. If combing is enabled, travels over infill may not retract, and won't trigger extra prime.',
+            'description': 'Disabling this sets the slicer to only add extra filament after a retraction. If combing is enabled, travels over infill may not retract, and won\'t trigger extra prime.',
             'type': 'bool',
             'unit': '',
             'default_value': True,
